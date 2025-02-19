@@ -24,6 +24,14 @@
       (speed 0.25)
       (image "images/background/antarctic/arctis2.png")
     )
+    (background
+      (color 1 1 1)
+      (alignment "top")
+      (scroll-speed-x -5)
+      (speed 0)
+      (image "/images/background/misc/clouds.png")
+      (z-pos -301)
+    )
     (bonusblock
       (type "purple")
       (z-pos 51)
@@ -83,7 +91,7 @@
     (gradient
       (top_color 0.3 0.4 0.75)
       (bottom_color 1 1 1)
-      (z-pos -301)
+      (z-pos -302)
     )
     (infoblock
       (z-pos 51)

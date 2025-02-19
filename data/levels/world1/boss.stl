@@ -1,0 +1,103 @@
+(supertux-level
+  (version 3)
+  (name (_ "Yeti The Bully"))
+  (author "Sophie Ball")
+  (note (_ "Act Boss"))
+  (license "CC-BY-SA 4.0 International")
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #f)
+    (enable-badguys #f)
+    (enable-secrets #f)
+  )
+  (sector
+    (name "main")
+    (ambient-light
+      (color 0.9 0.8 0.8)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0.5)
+      (image "images/background/antarctic/arctis2.png")
+    )
+    (background
+      (color 1 1 1 0.3)
+      (scroll-speed-x -50)
+      (speed 0.5)
+      (image "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "top")
+      (scroll-speed-x -5)
+      (speed 0)
+      (image "/images/background/misc/skybox_night.png")
+      (z-pos -301)
+    )
+    (background
+      (color 1 1 1 0.3)
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (gradient
+      (top_color 0.8588235 0.6392157 0)
+      (bottom_color 0.04313726 0 0.9294118)
+      (z-pos -302)
+    )
+    (gradient
+      (top_color 1 0.7686275 0.3607843 0.2)
+      (bottom_color 0.2862745 0.2352941 0 0.1)
+      (z-pos 299)
+    )
+    (leveltime
+      (time 80)
+    )
+    (music
+      (file "/music/boss/yetiboss.music")
+    )
+    (particles-snow
+    )
+    (spawnpoint
+      (name "main")
+      (x 640)
+      (y 736)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 40)
+      (height 35)
+      (tiles -1400 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 40)
+      (height 35)
+      (tiles -1400 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 40)
+      (height 35)
+      (tiles -640 0 -6 8 2913 2914 -24 0 2909 2910 -6 8 -6 14 2915 2916 2917 2918 9 -18 0 7 2921 2922 2911 2912 14 3989 -4 14 -2 11 19 -5 11 2919 2920 15 -18 0 13 2923 2924 1834 -17 11 12 -18 0 10 -20 11 12 -18 0 10 -3 11 19 -16 11 12 -18 0 10 -3 11 19 -15 11 2940 18 -18 0 16 2937 -18 11 2941 -20 0 2938 11 19 -10 11 19 -4 11 2940 2942 -7 0 2909 2910 -2 8 2913 2914 -7 0 2939 2937 -16 11 2941 -4 0 7 8 2921 2922 2911 2912 -2 14 2915 2916 2917 2918 8 9 -4 0 2938 -15 11 2935 2942 -4 0 13 3989 2923 2924 1834 -5 11 2919 2920 14 15 -4 0 2939 2933 -13 11 2940 2936 -5 0 10 -12 11 12 -5 0 2934 2937 -12 11 2941 -6 0 10 -12 11 12 -6 0 2938 -4 11 19 -6 11 2935 2942 -6 0 10 -5 11 19 -6 11 12 -6 0 2939 2933 -8 11 2929 2930 2936 -7 0 10 -8 11 19 -3 11 12 -7 0 2934 2925 2926 -5 11 2935 2931 -9 0 10 11 19 -10 11 12 -9 0 2928 2933 -3 11 2935 2936 -10 0 10 -11 11 19 12 -10 0 2934 2933 11 2940 2936 -11 0 10 -12 11 12 -11 0 2934 2937 2941 -12 0 10 -12 11 12 -12 0 2938)
+    )
+    (yeti
+      (z-pos 50)
+      (dead-script "Tux.trigger_sequence(\"fireworks\");")
+      (x 96)
+      (y 448)
+    )
+  )
+)
