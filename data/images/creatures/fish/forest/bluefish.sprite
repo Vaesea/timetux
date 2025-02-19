@@ -6,11 +6,7 @@
     (images "swim_blue-0.png"
             "swim_blue-1.png"
             "swim_blue-2.png"
-            "swim_blue-3.png"
-            "swim_blue-4.png"
-            "swim_blue-5.png"
-            "swim_blue-6.png"
-            "swim_blue-7.png"))
+            "swim_blue-3.png"))
 
   (action
     (name "swim-right")
