@@ -165,6 +165,9 @@
     (class "yeti")
     (icon "images/creatures/yeti/hudlife.png"))
   (object
+    (class "frankenpipe")
+    (icon "images/creatures/frankenpipe/hudlife.png"))
+  (object
     (class "ghosttree")
     (icon "images/creatures/ghosttree/ghosttree.png"))
  )
