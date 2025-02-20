@@ -19,21 +19,21 @@
 
 #include "badguy/badguy.hpp"
 
-class FlyingSnowBall final : public BadGuy
+class FlyingPipe final : public BadGuy
 {
 public:
-  FlyingSnowBall(const ReaderMapping& reader);
+  FlyingPipe(const ReaderMapping& reader);
 
   virtual void initialize() override;
   virtual void activate() override;
   virtual void active_update(float dt_sec) override;
   virtual void collision_solid(const CollisionHit& hit) override;
-  static std::string class_name() { return "flyingsnowball"; }
+  static std::string class_name() { return "flyingpipe"; }
   virtual std::string get_class_name() const override { return class_name(); }
-  static std::string display_name() { return _("Flying Snowball"); }
+  static std::string display_name() { return _("Flying Pipe"); }
   virtual std::string get_display_name() const override { return display_name(); }
-  virtual GameObjectClasses get_class_types() const override { return BadGuy::get_class_types().add(typeid(FlyingSnowBall)); }
-  virtual bool is_snipable() const override { return true; }
+  virtual GameObjectClasses get_class_types() const override { return BadGuy::get_class_types().add(typeid(FlyingPipe)); }
+  virtual bool is_snipable() const override { return false; }
 
 protected:
   virtual bool collision_squished(MovingObject& object) override;
@@ -44,8 +44,8 @@ private:
   Timer puff_timer; /**< time until the next smoke puff is spawned */
 
 private:
-  FlyingSnowBall(const FlyingSnowBall&) = delete;
-  FlyingSnowBall& operator=(const FlyingSnowBall&) = delete;
+  FlyingPipe(const FlyingPipe&) = delete;
+  FlyingPipe& operator=(const FlyingPipe&) = delete;
 };
 
 #endif
