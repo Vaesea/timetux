@@ -25,7 +25,7 @@ public:
   WalkingPipe(const ReaderMapping& reader);
   WalkingPipe(const Vector& pos, Direction d, const std::string& script);
 
-  static std::string class_name() { return "walkingpipe]"; }
+  static std::string class_name() { return "walkingpipe"; }
   virtual std::string get_class_name() const override { return class_name(); }
   static std::string display_name() { return _("Walking Pipe"); }
   virtual std::string get_display_name() const override { return display_name(); }
