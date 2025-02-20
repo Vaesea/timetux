@@ -1,0 +1,15 @@
+(supertux-text			
+  (background	"halloween/intro.jpg")
+  (music	"music/voc-dark.music")
+  (text "-A nICE walk... Or not.
+
+	Tux was just walking around Icy Island one day,
+	when a penguin named Adel attacked him and stole
+	his crystals! He was protecting those crystals
+	to stop something bad from happening as the
+	crystals have a lot of power, and he still had
+	one, but he didn't know that.
+
+	And now, Tux needed to get those crystals back!
+	So he prepared himself for the dangerous journey
+	ahead, and started running.") )

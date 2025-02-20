@@ -1,0 +1,152 @@
+(supertux-level
+  (version 3)
+  (name (_ "Wild Yeti"))
+  (author "Sophie Ball")
+  (license "CC-BY-SA 4.0 International")
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #f)
+    (enable-badguys #f)
+    (enable-secrets #f)
+  )
+  (sector
+    (name "main")
+    (ambient-light
+      (color 0.9 0.8 0.8)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0.5)
+      (image "images/background/antarctic/arctis2.png")
+    )
+    (background
+      (color 1 1 1 0.3)
+      (scroll-speed-x -50)
+      (speed 0.5)
+      (image "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (background
+      (color 1 1 1 0.3)
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (gradient
+      (top_color 1 0.8352941 0.4196078)
+      (bottom_color 0.1882353 0 0.8784314)
+      (z-pos -301)
+    )
+    (gradient
+      (top_color 0.9882353 0.6431373 0 0.3)
+      (bottom_color 0 0 0 0.2)
+      (z-pos 299)
+    )
+    (music
+      (file "/music/misc/battle_theme.music")
+    )
+    (particles-snow
+    )
+    (particles-snow
+    )
+    (scriptedobject
+      (z-pos 50)
+      (name "Yeti")
+      (sprite "/images/creatures/yeti/yeti.sprite")
+      (x 32)
+      (y 896)
+    )
+    (scripttrigger
+      (script "Tux.deactivate();
+Yeti.set_action(\"walking-right\");
+Yeti.set_visible(false);
+Text.set_font(\"normal\");
+Tux.set_dir(true);
+Tux.walk(150);
+
+wait(1);
+
+Text.set_text(\"Tux was just walking forward, and then...\");
+Text.fade_in(1);
+wait(4);
+Text.fade_out(1);")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 672)
+      (y 960)
+    )
+    (scripttrigger
+      (script "Tux.set_dir(false);
+play_sound(\"sounds/yeti_roar.wav\");
+Camera.start_earthquake(5, 0.05);
+Tux.do_jump(-350);
+Tux.walk(300);
+wait(1);
+Tux.walk(0);
+wait(0.5);
+Camera.stop_earthquake();
+wait(1);
+Yeti.set_visible(true);
+Yeti.set_velocity(550, 0);
+wait(2);
+Tux.walk(75);
+wait(1);
+Yeti.set_velocity(0, 0);
+Yeti.set_action(\"stand-right\");
+Text.set_text(\"Yeti, the Icy Island bully had found him!\");
+Text.fade_in(1);
+wait(4);
+Text.fade_out(1);
+wait(1);
+Tux.walk(0);
+play_sound(\"sounds/yeti_gna.wav\");
+Yeti.set_action(\"stomp-right\");
+Yeti.set_velocity(0, -200);
+wait(0.7);
+Yeti.set_velocity(0, 200);
+Effect.fade_out(2);
+wait(2);
+Level.finish(true);")
+      (button #f)
+      (width 32)
+      (height 32)
+      (x 1632)
+      (y 960)
+    )
+    (spawnpoint
+      (name "main")
+      (x 672)
+      (y 928)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 100)
+      (height 35)
+      (tiles -1987 0 1321 1322 1323 1324 -96 0 1325 1326 1327 1328 -92 0 106 107 108 0 1329 1330 1331 1332 -90 0 25 0 109 110 111 0 1333 1334 1335 1336 -278 0 4137 4138 4139 4140 -4 0 106 107 108 -89 0 4141 4142 4143 4144 25 0 24 0 109 110 111 -46 0 1321 1322 1323 1324 -96 0 1325 1326 1327 1328 -76 0 106 107 108 -9 0 106 107 108 4137 4138 4139 4140 0 1329 1330 1331 1332 -7 0 106 107 108 -6 0 4145 4146 4147 4148 -10 0 106 107 108 -38 0 24 -2 0 25 0 109 110 111 24 -3 0 25 0 2623 2624 24 109 110 111 4141 4142 4143 4144 25 1333 1334 1335 1336 0 24 0 2623 2624 25 0 109 110 111 24 0 2625 2626 25 0 4149 4150 4151 4152 25 0 2623 2624 0 25 -2 0 24 0 109 110 111 0 25 0 24 -433 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 100)
+      (height 35)
+      (tiles -3500 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 100)
+      (height 35)
+      (tiles -1892 0 7 -7 8 -92 0 13 -2 14 3990 -2 14 3989 14 -92 0 10 -7 11 -92 0 10 -7 11 -80 0 7 -11 8 22 -7 11 -80 0 13 3990 -10 14 23 -7 11 -80 0 10 -15 11 19 -3 11 -80 0 10 -19 11 -68 0 7 -11 8 22 -19 11 -68 0 13 3990 -2 14 3988 -3 14 3990 -3 14 23 -19 11 -68 0 10 -14 11 19 -16 11 -68 0 10 -31 11 -68 8 22 -25 11 19 11 19 -3 11 -5 14 3990 -3 14 3989 -37 14 3990 -3 14 3988 -2 14 3989 -2 14 3990 -2 14 3988 -7 14 23 -25 11 19 -75 11 19 -6 11 19 -130 11 19 -41 11 19 -2 11 19 -46 11)
+    )
+  )
+)
