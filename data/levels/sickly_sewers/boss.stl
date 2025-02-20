@@ -44,8 +44,9 @@
     (ghosttree
       (z-pos -1)
       (dead-script "Tux.trigger_sequence(\"fireworks\");")
-      (x 928)
-      (y 864)
+      (sprite "/images/creatures/frankenpipe/frankenpipe.sprite")
+      (x 905)
+      (y 838)
       (hud-icon "images/creatures/ghosttree/hudlife.png")
       (lives 3)
       (pinch-lives 0)
