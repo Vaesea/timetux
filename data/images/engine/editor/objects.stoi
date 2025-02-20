@@ -156,6 +156,9 @@
   (object
     (class "totem")
     (icon "images/creatures/totem/walking1.png"))
+  (object
+    (class "walkingpipe")
+    (icon "images/creatures/walking_pipe/wp-1.png"))
  )
 
  (objectgroup
@@ -164,9 +167,6 @@
   (object
     (class "yeti")
     (icon "images/creatures/yeti/hudlife.png"))
-  (object
-    (class "frankenpipe")
-    (icon "images/creatures/frankenpipe/hudlife.png"))
   (object
     (class "ghosttree")
     (icon "images/creatures/ghosttree/ghosttree.png"))
