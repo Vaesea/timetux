@@ -33,7 +33,7 @@ public:
 
   virtual bool is_snipable() const override { return false; }
   virtual bool is_freezable() const override;
-  virtual bool is_flammable() const override; { return false; }
+  virtual bool is_flammable() const override { return false; }
 
   GameObjectTypes get_types() const override;
   std::string get_default_sprite_name() const override;
