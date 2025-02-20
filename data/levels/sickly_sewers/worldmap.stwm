@@ -43,6 +43,22 @@
       (x 31)
       (y 14)
     )
+    (level
+      (z-pos 50)
+      (level "intro.stl")
+      (auto-play #t)
+      (sprite "/images/worldmap/common/invisible.png")
+      (x 11)
+      (y 12)
+    )
+    (level
+      (z-pos 50)
+      (level "bosscutscene.stl")
+      (auto-play #t)
+      (sprite "/images/worldmap/common/invisible.png")
+      (x 28)
+      (y 15)
+    )
     (music
       (file "/music/worldmap/worldmap_old.music")
     )

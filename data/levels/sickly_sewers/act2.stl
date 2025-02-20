@@ -120,13 +120,18 @@
     )
     (haywire
       (z-pos 50)
-      (x 10016)
-      (y 416)
+      (x 4480)
+      (y 320)
     )
     (haywire
       (z-pos 50)
-      (x 9888)
-      (y 416)
+      (x 3456)
+      (y 320)
+    )
+    (haywire
+      (z-pos 50)
+      (x 9376)
+      (y 224)
     )
     (infoblock
       (z-pos 51)
@@ -136,22 +141,12 @@
     )
     (jumpy
       (z-pos 50)
-      (x 1024)
-      (y 832)
-    )
-    (jumpy
-      (z-pos 50)
       (x 1184)
       (y 832)
     )
     (jumpy
       (z-pos 50)
       (x 4992)
-      (y 288)
-    )
-    (jumpy
-      (z-pos 50)
-      (x 4704)
       (y 288)
     )
     (jumpy
@@ -205,6 +200,11 @@ Effect.sixteen_to_nine(0);")
       (x 11616)
       (y -1344)
     )
+    (snail
+      (z-pos 50)
+      (x 9536)
+      (y 224)
+    )
     (spawnpoint
       (name "main")
       (x 80)
@@ -224,22 +224,7 @@ Effect.sixteen_to_nine(0);")
     )
     (spiky
       (z-pos 50)
-      (x 608)
-      (y 992)
-    )
-    (spiky
-      (z-pos 50)
-      (x 4672)
-      (y 320)
-    )
-    (spiky
-      (z-pos 50)
-      (x 4544)
-      (y 320)
-    )
-    (spiky
-      (z-pos 50)
-      (x 3616)
+      (x 4736)
       (y 320)
     )
     (sspiky
@@ -249,7 +234,7 @@ Effect.sixteen_to_nine(0);")
     )
     (sspiky
       (z-pos 50)
-      (x 3200)
+      (x 3616)
       (y 320)
     )
     (tilemap
@@ -431,6 +416,41 @@ Effect.sixteen_to_nine(0);")
       (z-pos 0)
       (x 13728)
       (y 768)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 448)
+      (y 928)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 3520)
+      (y 256)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 4608)
+      (y 256)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 9440)
+      (y 128)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 11424)
+      (y 768)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 11232)
+      (y 768)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 10048)
+      (y 352)
     )
     (wind
       (speed-x 0)

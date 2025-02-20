@@ -112,6 +112,11 @@ So maybe don't do that."))
       (x 992)
       (y 224)
     )
+    (mole
+      (z-pos -1)
+      (x 1504)
+      (y 960)
+    )
     (music
       (file "/music/present/halloween_1.music")
     )
@@ -148,35 +153,10 @@ So maybe don't do that."))
       (x 9408)
       (y 0)
     )
-    (smartball
+    (snail
       (z-pos 50)
-      (x 1760)
+      (x 1600)
       (y 256)
-    )
-    (smartball
-      (z-pos 50)
-      (x 1568)
-      (y 256)
-    )
-    (smartball
-      (z-pos 50)
-      (x 4160)
-      (y 736)
-    )
-    (snowball
-      (z-pos 50)
-      (x 992)
-      (y 960)
-    )
-    (snowball
-      (z-pos 50)
-      (x 4256)
-      (y 736)
-    )
-    (snowball
-      (z-pos 50)
-      (x 4352)
-      (y 704)
     )
     (spawnpoint
       (name "main")
@@ -190,26 +170,6 @@ So maybe don't do that."))
     (spawnpoint
       (x 6112)
       (y 224)
-    )
-    (spiky
-      (z-pos 50)
-      (x 1664)
-      (y 256)
-    )
-    (spiky
-      (z-pos 50)
-      (x 3136)
-      (y 800)
-    )
-    (spiky
-      (z-pos 50)
-      (x 6464)
-      (y 384)
-    )
-    (spiky
-      (z-pos 50)
-      (x 5888)
-      (y 384)
     )
     (sspiky
       (z-pos 50)
@@ -226,6 +186,11 @@ So maybe don't do that."))
       (z-pos 50)
       (x 1824)
       (y 192)
+    )
+    (sspiky
+      (z-pos 50)
+      (x 4352)
+      (y 704)
     )
     (tilemap
       (solid #f)
@@ -606,6 +571,36 @@ So maybe don't do that."))
       (z-pos 0)
       (x 5152)
       (y 448)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 960)
+      (y 896)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 1696)
+      (y 192)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 4224)
+      (y 672)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 4928)
+      (y 640)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 6432)
+      (y 320)
+    )
+    (walkingpipe
+      (z-pos 50)
+      (x 5856)
+      (y 320)
     )
     (wind
       (speed-x 0)
