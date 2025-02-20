@@ -37,6 +37,7 @@
 #include "badguy/flame.hpp"
 #include "badguy/flyingsnowball.hpp"
 #include "badguy/ghosttree.hpp"
+#include "badguy/frankenpipe.hpp"
 #include "badguy/ghoul.hpp"
 #include "badguy/goldbomb.hpp"
 #include "badguy/granito.hpp"
@@ -196,6 +197,7 @@ GameObjectFactory::init_factories()
   add_factory<FlyingSnowBall>("flyingsnowball", OBJ_PARAM_DISPENSABLE);
   add_type_factory<Flame>("ghostflame", Flame::GHOST); // Backward compatibility.
   add_factory<GhostTree>("ghosttree");
+  add_factory<Frankenpipe>("frankenpipe");
   add_factory<Ghoul>("ghoul", OBJ_PARAM_DISPENSABLE);
   add_factory<GoldBomb>("goldbomb", OBJ_PARAM_PORTABLE | OBJ_PARAM_DISPENSABLE);
   add_factory<Granito>("granito", OBJ_PARAM_DISPENSABLE);

@@ -245,7 +245,7 @@ Frankenpipe::draw(DrawingContext& context)
 }
 
 bool
-GhostTree::collides(MovingObject& other, const CollisionHit& ) const
+Frankenpipe::collides(MovingObject& other, const CollisionHit& ) const
 {
   if (mystate != STATE_SUCKING) return false;
   if (dynamic_cast<Lantern*>(&other)) return true;
