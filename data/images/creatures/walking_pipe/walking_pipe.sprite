@@ -1,0 +1,28 @@
+(supertux-sprite
+  (action
+    (name "left")
+	(fps 14)
+    (hitbox 5 -2 55 82)
+    (images "wp-1.png"
+            "wp-2.png"
+            "wp-3.png"
+            "wp-4.png"
+            "wp-5.png")
+  )
+  (action
+    (name "right")
+	(fps 14)
+    (hitbox -5 -2 55 82)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox -5 -2 55 82)
+    (images "wp-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox -5 -2 55 82)
+    (mirror-action "squished-left")
+  )
+)
