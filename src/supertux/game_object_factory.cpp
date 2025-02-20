@@ -35,6 +35,7 @@
 #include "badguy/fish_jumping.hpp"
 #include "badguy/fish_swimming.hpp"
 #include "badguy/flame.hpp"
+#include "badguy/flying_pipe.hpp"
 #include "badguy/flyingsnowball.hpp"
 #include "badguy/ghosttree.hpp"
 #include "badguy/ghoul.hpp"
@@ -194,6 +195,7 @@ GameObjectFactory::init_factories()
   add_factory<FishJumping>("fish-jumping", OBJ_PARAM_DISPENSABLE);
   add_factory<FishSwimming>("fish-swimming", OBJ_PARAM_DISPENSABLE);
   add_factory<Flame>("flame", OBJ_PARAM_DISPENSABLE);
+  add_factory<FlyingPipe>("flyingpipe", OBJ_PARAM_DISPENSABLE);
   add_factory<FlyingSnowBall>("flyingsnowball", OBJ_PARAM_DISPENSABLE);
   add_type_factory<Flame>("ghostflame", Flame::GHOST); // Backward compatibility.
   add_factory<GhostTree>("ghosttree");
