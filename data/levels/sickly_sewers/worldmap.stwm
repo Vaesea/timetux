@@ -1,7 +1,7 @@
 (supertux-level
   (version 3)
   (name (_ "Sickly Sewers Zone"))
-  (author "SuperTux Player")
+  (author "Sophie Ball")
   (license "CC-BY-SA 4.0 International")
   (allow-item-pocket "on")
   (icon "")
@@ -73,6 +73,9 @@
     )
     (teleporter
       (z-pos 50)
+      (worldmap "/levels/Desolate_Desert/worldmap.stwm")
+      (sector "main")
+      (spawnpoint "main")
       (message (_ "Go to Desolate Desert?"))
       (x 33)
       (y 0)
