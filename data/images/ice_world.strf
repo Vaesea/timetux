@@ -4,7 +4,7 @@
   (source "autotiles_ice_world.satc")
 )
 
-;; worldmap tiles- next id: 728
+;; worldmap tiles- next id: 730
 
 (tilegroup
 	(name (_ "Snow"))
@@ -57,8 +57,8 @@
         704 705 706 707
 		708 709 710 726
         711 712 713 727
-        714 715 716 0
-		717 718 719 0
+        714 715 716 728
+		717 718 719 729
         720 721 722 0
         723 724 725 0
 	)
@@ -865,6 +865,13 @@
 	(images "worldmap/desert/coconut.png")
 	(ids
 		726 727
+	)
+)
+(tiles
+	(width 2)(height 1)
+	(images "worldmap/desert/cactus.png")
+	(ids
+		728 729
 	)
 )
 )
