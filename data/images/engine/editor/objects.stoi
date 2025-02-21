@@ -162,6 +162,9 @@
   (object
     (class "flyingpipe")
     (icon "images/creatures/flying_pipe/fp-0.png"))
+  (object
+    (class "coco")
+    (icon "images/creatures/coco/left-0.png"))
  )
 
  (objectgroup
