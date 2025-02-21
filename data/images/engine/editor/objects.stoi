@@ -156,6 +156,12 @@
   (object
     (class "totem")
     (icon "images/creatures/totem/walking1.png"))
+  (object
+    (class "walkingpipe")
+    (icon "images/creatures/walking_pipe/wp-1.png"))
+  (object
+    (class "flyingpipe")
+    (icon "images/creatures/flying_pipe/fp-0.png"))
  )
 
  (objectgroup

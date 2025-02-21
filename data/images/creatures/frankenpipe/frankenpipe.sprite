@@ -1,0 +1,25 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 230 300 40 60)
+    (images
+      "frankenpipe.png"
+    )
+  )
+  (action
+    (name "swallow")
+    (hitbox 230 300 40 60)
+    (fps 16)
+    (images
+      "frankenpipe.png"
+    )
+  )
+  (action
+    (name "dying")
+    (hitbox 230 300 40 60)
+    (fps 4)
+    (images
+      "frankenpipe-dying.png"
+    )
+  )
+)
