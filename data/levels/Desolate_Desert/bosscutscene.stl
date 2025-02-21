@@ -18,7 +18,7 @@
 Penny.set_action(\"stand-left\");
 rtux.set_action(\"fast-left\");")
     (ambient-light
-      (color 1 1 1)
+      (color 1 0.9 1)
     )
     (background
       (scroll-offset-y 550)
@@ -28,17 +28,17 @@ rtux.set_action(\"fast-left\");")
       (image "/images/background/desert/arcticmountains.png")
     )
     (background
-      (scroll-offset-y -300)
       (color 1 1 1)
       (alignment "top")
       (speed 0)
-      (image "/images/background/desert/sun.png")
+      (image "/images/background/antarctic/SnowMountainsSky.png")
       (z-pos -301)
     )
     (background
-      (color 1 1 1 0.3)
-      (speed 1)
-      (image "/images/decal/misc/heatshimmer.sprite")
+      (color 0.9764706 0.8509804 0 0.3)
+      (scroll-speed-x -50)
+      (speed 0.5)
+      (image "/images/background/misc/fog.png")
       (z-pos 301)
     )
     (camera
@@ -81,8 +81,8 @@ rtux.set_action(\"fast-left\");")
       (z-pos -303)
     )
     (gradient
-      (top_color 0.9372549 1 0.6509804 0.3)
-      (bottom_color 1 0.9607843 0.8078431 0.1)
+      (top_color 1 0.8039216 0.8627451 0.3)
+      (bottom_color 0.4 0 0.2 0.1)
       (z-pos 300)
     )
     (gradient
