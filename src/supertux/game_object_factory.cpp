@@ -35,7 +35,7 @@
 #include "badguy/fish_jumping.hpp"
 #include "badguy/fish_swimming.hpp"
 #include "badguy/flame.hpp"
-#include "badguy/flying_pipe.hpp"
+#include "badguy/flyingpipe.hpp"
 #include "badguy/flyingsnowball.hpp"
 #include "badguy/ghosttree.hpp"
 #include "badguy/ghoul.hpp"

@@ -34,6 +34,7 @@ public:
   virtual std::string get_display_name() const override { return display_name(); }
   virtual GameObjectClasses get_class_types() const override { return BadGuy::get_class_types().add(typeid(FlyingPipe)); }
   virtual bool is_snipable() const override { return false; }
+  virtual bool is_flammable() const override { return false; }
 
 protected:
   virtual bool collision_squished(MovingObject& object) override;
