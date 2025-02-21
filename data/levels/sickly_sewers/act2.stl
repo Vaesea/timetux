@@ -78,37 +78,37 @@
       (x 5280)
       (y 256)
     )
-    (flyingsnowball
+    (flyingpipe
       (z-pos 50)
       (x 4832)
       (y 256)
     )
-    (flyingsnowball
+    (flyingpipe
       (z-pos 50)
-      (x 5792)
-      (y 256)
+      (x 6176)
+      (y 224)
     )
-    (flyingsnowball
+    (flyingpipe
       (z-pos 50)
       (x 5984)
       (y 256)
     )
-    (flyingsnowball
+    (flyingpipe
       (z-pos 50)
-      (x 6176)
-      (y 256)
+      (x 5792)
+      (y 288)
     )
-    (flyingsnowball
+    (flyingpipe
       (z-pos 50)
       (x 7680)
       (y 160)
     )
-    (flyingsnowball
+    (flyingpipe
       (z-pos 50)
       (x 8192)
       (y 160)
     )
-    (flyingsnowball
+    (flyingpipe
       (z-pos 50)
       (x 8608)
       (y 160)
