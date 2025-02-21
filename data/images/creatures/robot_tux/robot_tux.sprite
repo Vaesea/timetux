@@ -1,0 +1,22 @@
+(supertux-sprite
+ (action
+  (name "normal-right")
+  (hitbox 39 4 35 70)
+  (images "normal.png"))
+
+ (action
+  (name "normal-left")
+  (hitbox 39 4 35 70)
+  (fps 20)
+  (mirror-action "normal-right"))
+
+ (action
+  (name "fast-right")
+  (hitbox 39 4 35 70)
+  (images "fast.png"))
+
+ (action
+  (name "fast-left")
+  (hitbox 39 4 35 70)
+  (mirror-action "fast-right"))
+)

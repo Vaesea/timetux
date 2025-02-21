@@ -1,8 +1,8 @@
 (supertux-sprite
   (action
     (name "right")
-    (hitbox 8 13 32 32)
-    (fps 14)
+    (hitbox 6 3 32 36)
+    (fps 6)
     (images "left-0.png"
             "left-1.png"
             "left-0.png"
@@ -10,14 +10,14 @@
   )
   (action
     (name "left")
-    (hitbox 8 13 32 32)
-    (fps 14)
+    (hitbox 6 3 32 36)
+    (fps 6)
     (mirror-action "right")
   )
   (action
     (name "jump-right")
-    (hitbox 8 13 32 32)
-    (fps 20)
+    (hitbox 6 3 32 36)
+    (fps 14)
 	(loops 1)
     (images "left-1.png"
             "left-1.png"
@@ -26,19 +26,19 @@
   )
   (action
     (name "jump-left")
-    (hitbox 8 13 32 32)
-    (fps 20)
+    (hitbox 6 3 32 36)
+    (fps 14)
 	(loops 1)
     (mirror-action "jump-right")
   )
   (action
     (name "squished-right")
-    (hitbox 8 13 32 32)
+    (hitbox 6 4 32 36)
     (images "squished.png")
   )
   (action
     (name "squished-left")
-    (hitbox 8 13 32 32)
+    (hitbox 6 4 32 36)
     (mirror-action "squished-right")
   )
 )

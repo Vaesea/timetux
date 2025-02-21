@@ -43,17 +43,32 @@
       (name "Camera")
       (mode "normal")
     )
-    (captainsnowball
-      (z-pos 50)
-      (direction "right")
-      (x 3808)
-      (y 2016)
-    )
     (climbable
       (width 32)
       (height 288)
       (x 5440)
       (y 1696)
+    )
+    (coco
+      (z-pos 50)
+      (x 1440)
+      (y 1856)
+    )
+    (coco
+      (z-pos 50)
+      (x 1984)
+      (y 1856)
+    )
+    (coco
+      (z-pos 50)
+      (direction "right")
+      (x 3808)
+      (y 2016)
+    )
+    (coco
+      (z-pos 50)
+      (x 6336)
+      (y 1440)
     )
     (decal
       (z-pos -1)
@@ -261,27 +276,12 @@
     )
     (snail
       (z-pos 50)
-      (x 6048)
+      (x 6240)
       (y 1440)
     )
     (snail
       (z-pos 50)
       (x 6416)
-      (y 1440)
-    )
-    (snowball
-      (z-pos 50)
-      (x 1952)
-      (y 1856)
-    )
-    (snowball
-      (z-pos 50)
-      (x 1440)
-      (y 1856)
-    )
-    (snowball
-      (z-pos 50)
-      (x 6240)
       (y 1440)
     )
     (spawnpoint
@@ -531,7 +531,7 @@
     )
     (tilemap
       (solid #t)
-      (tint 0 0.7137255 0.1686275)
+      (tint 0 1 0)
       (z-pos -1)
       (width 500)
       (height 95)
