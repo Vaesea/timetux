@@ -20,7 +20,7 @@
 #include <math.h>
 
 #include "audio/sound_manager.hpp"
-#include "badguy/bouncingsnowball.hpp"
+#include "badguy/bouncing_snowball.hpp"
 #include "badguy/yeti_stalactite.hpp"
 #include "math/random.hpp"
 #include "object/bigsnowball.hpp"
