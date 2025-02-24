@@ -94,7 +94,7 @@ private:
   {
   public:
     SnowExplosionParticle(const Vector& pos, const Vector& velocity);
-    virtual GameObjectClasses get_class_types() const override { return BadGuy::get_class_types().add(typeid(Yeti::SnowExplosionParticle)); }
+    virtual GameObjectClasses get_class_types() const override { return BadGuy::get_class_types().add(typeid(Mummy::SnowExplosionParticle)); }
   };
 
 private:
