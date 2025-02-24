@@ -61,18 +61,6 @@
       (x 32)
       (y 992)
     )
-    (corrupted_granito
-      (type "skullyhop")
-      (z-pos 50)
-      (x 11520)
-      (y 800)
-    )
-    (corrupted_granito
-      (type "skullyhop")
-      (z-pos 50)
-      (x 11360)
-      (y 800)
-    )
     (firefly
       (z-pos 0)
       (x 5280)
@@ -141,7 +129,7 @@
     )
     (jumpy
       (z-pos 50)
-      (x 1184)
+      (x 1216)
       (y 832)
     )
     (jumpy
@@ -200,11 +188,6 @@ Effect.sixteen_to_nine(0);")
       (x 11616)
       (y -1344)
     )
-    (snail
-      (z-pos 50)
-      (x 9536)
-      (y 224)
-    )
     (spawnpoint
       (name "main")
       (x 80)
@@ -236,6 +219,12 @@ Effect.sixteen_to_nine(0);")
       (z-pos 50)
       (x 3616)
       (y 320)
+    )
+    (sspiky
+      (z-pos 50)
+      (direction "right")
+      (x 9568)
+      (y 224)
     )
     (tilemap
       (solid #f)
