@@ -20,7 +20,7 @@
 #include <math.h>
 
 #include "audio/sound_manager.hpp"
-#include "badguy/coco.hpp"
+#include "badguy/bouncingsnowball.hpp"
 #include "badguy/yeti_stalactite.hpp"
 #include "math/random.hpp"
 #include "object/bigsnowball.hpp"
@@ -408,7 +408,7 @@ void
 Mummy::summon_snowball()
 {
   Vector bs_pos = get_pos() + Vector(m_dir == Direction::LEFT ? -32.f : (get_bbox().get_width() + 1.f), 0.f);
-  Sector::get().add<Coco>(bs_pos, m_dir, 250.f * (m_pinch_mode ? 2.4f : 2.f));
+  Sector::get().add<BouncingSnowball>(bs_pos, m_dir, 250.f * (m_pinch_mode ? 2.4f : 2.f));
 }
 
 void
