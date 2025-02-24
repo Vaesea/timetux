@@ -259,8 +259,28 @@
       (x 13472)
       (y 1024)
     )
+    (livefire
+      (z-pos 50)
+      (x 10080)
+      (y 704)
+    )
     (music
       (file "/music/present/saharan_penguin.music")
+    )
+    (powerup
+      (version 2)
+      (type "oneup")
+      (z-pos 50)
+      (disable-physics #t)
+      (x 10752)
+      (y 512)
+    )
+    (secretarea
+      (message (_ "You found the Tux Doll!"))
+      (width 32)
+      (height 32)
+      (x 10752)
+      (y 512)
     )
     (sequencetrigger
       (sequence "endsequence")
@@ -268,11 +288,6 @@
       (height 1216)
       (x 14016)
       (y -128)
-    )
-    (smartball
-      (z-pos 50)
-      (x 10112)
-      (y 704)
     )
     (snail
       (z-pos 50)

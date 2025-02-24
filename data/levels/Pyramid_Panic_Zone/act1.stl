@@ -265,14 +265,14 @@
     )
     (tarantula
       (z-pos 50)
-      (x 6208)
-      (y 160)
-      (static #t)
+      (x 6560)
+      (y 1216)
     )
     (tarantula
       (z-pos 50)
-      (x 6560)
-      (y 1216)
+      (x 6208)
+      (y 160)
+      (static #t)
     )
     (tilemap
       (solid #f)

@@ -67,7 +67,7 @@
       (width 96)
       (height 32)
       (x 2880)
-      (y 576)
+      (y 608)
     )
     (music
       (file "/music/misc/jewels.music")
@@ -75,7 +75,7 @@
     (scripttrigger
       (script "stop_music(2);
 Tux.deactivate();
-wait(0.1);
+wait(0.3);
 Tux.do_jump(-300);
 wait(0.5);
 Tux.walk(300);")
@@ -89,10 +89,6 @@ Tux.walk(300);")
       (oneshot #t)
       (script "Text.set_font(\"normal\");
 Tux.walk(0);
-Text.set_text(\"Tux knew Adel had gone through this machine, and Tux somehow knew she went to the past...\");
-Text.fade_in(1);
-wait(4);
-Text.fade_out(1);
 wait(2);
 Tux.do_jump(-300);
 sector.settings.set_gravity(0);
@@ -106,12 +102,6 @@ Level.finish(true);")
       (height 32)
       (x 2944)
       (y 800)
-    )
-    (scrystallo
-      (z-pos 50)
-      (sprite "/images/creatures/crystallo/scrystallo.sprite")
-      (x 960)
-      (y 672)
     )
     (scrystallo
       (z-pos 50)
