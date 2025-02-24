@@ -79,6 +79,7 @@
 #include "badguy/walking_candle.hpp"
 #include "badguy/walkingleaf.hpp"
 #include "badguy/willowisp.hpp"
+#include "badguy/mummy.hpp"
 #include "badguy/yeti.hpp"
 #include "badguy/yeti_stalactite.hpp"
 #include "badguy/zeekling.hpp"
@@ -249,6 +250,7 @@ GameObjectFactory::init_factories()
   add_factory<WalkingCandle>("walking_candle", OBJ_PARAM_DISPENSABLE);
   add_factory<WalkingLeaf>("walkingleaf", OBJ_PARAM_DISPENSABLE);
   add_factory<WillOWisp>("willowisp", OBJ_PARAM_DISPENSABLE);
+  add_factory<Mummy>("mummy");
   add_factory<Yeti>("yeti");
   add_factory<YetiStalactite>("yeti_stalactite");
   add_factory<Zeekling>("zeekling", OBJ_PARAM_DISPENSABLE);

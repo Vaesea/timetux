@@ -1,0 +1,71 @@
+(supertux-sprite
+ (action
+  (name "walking-left")
+  (fps 14.0)
+  (hitbox 21 40 42 66)
+  (images
+   "1.png"
+   "2.png"
+   "3.png"
+   "4.png"
+   "5.png"
+   "6.png"
+   "7.png"
+   "8.png"
+   )
+  )
+ (action
+  (name "walking-right")
+  (mirror-action "walking-left")
+  (fps 14.0)
+  (hitbox 17 12 60 90)
+  )
+ (action
+  (name "jump-left")
+  (images
+   "jump.png"
+   )
+  (hitbox 17 12 60 90)
+  )
+ (action
+  (name "jump-right")
+  (mirror-action "jump-left")
+  (hitbox 17 12 60 90)
+  )
+ (action
+  (name "stand-left")
+  (images
+   "1.png"
+   )
+  (hitbox 17 12 60 90)
+  )
+ (action
+  (name "stand-right")
+  (mirror-action "stand-left")
+  (hitbox 17 12 60 90)
+  )
+ (action
+  (name "stomp-left")
+  (images
+   "stomp.png"
+   )
+  (hitbox 17 12 60 90)
+  )
+ (action
+  (name "stomp-right")
+  (mirror-action "stomp-left")
+  (hitbox 17 12 60 90)
+  )
+ (action
+  (name "dead")
+  (fps 3)
+  (images
+   "busted1.png"
+   "busted1.png"
+   "busted2.png"
+   "busted1.png"
+   "busted2.png"
+   )
+  (hitbox 300 400 60 90)
+  )
+ )

@@ -1,0 +1,6 @@
+(supertux-sprite
+	(action
+	  (hitbox 5 4 61 56)
+	  (name "default")
+	  (images "big.png"))
+)

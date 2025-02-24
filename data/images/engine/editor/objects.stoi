@@ -176,6 +176,9 @@
   (object
     (class "ghosttree")
     (icon "images/creatures/ghosttree/ghosttree.png"))
+  (object
+    (class "mummy")
+    (icon "images/creatures/mummy/mummy.png"))
  )
 
  (objectgroup
